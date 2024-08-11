@@ -7,13 +7,12 @@ int main() {
     char opr;
     double result;
     char choice;
-
+    
+    cout<< "****************************************\n"
+        << "     !!Welcome to the Calculator!!    \n"
+        << "****************************************\n";
     do{   
-        cout<< "****************************************\n"
-            << "     !!Welcome to the Calculator!!    \n"
-            << "****************************************\n";
-
-        cout<< "Choose an OPERATIONS:\n"
+        cout<< "\nChoose an OPERATIONS:\n"
             << " + : Addition\n"
             << " - : Subtraction\n"
             << " * : Multiplication\n"
